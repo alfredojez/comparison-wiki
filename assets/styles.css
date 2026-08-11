@@ -85,15 +85,16 @@ img {
 }
 
 .brand-mark {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 999px;
-  background: var(--brand);
-  color: #fff;
-  display: grid;
-  place-items: center;
-  font-size: 0.85rem;
-  font-weight: 800;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: block;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+img.brand-mark {
+  max-width: 48px;
 }
 
 .brand span {
